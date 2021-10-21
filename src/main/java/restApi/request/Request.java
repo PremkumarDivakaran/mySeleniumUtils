@@ -41,6 +41,10 @@ public class Request {
         private Multimap<String, String> header;
         private String requestBody;
 
+        public static Builder getInstance(){
+            return new Builder();
+        }
+
         public Builder withUri(String uri) {
             this.uri = uri;
             return this;

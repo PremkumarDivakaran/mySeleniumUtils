@@ -1,0 +1,11 @@
+bin
+test-output
+target
+.project
+.settings
+.classpath
+.idea
+*.iml
+*.DS_Store
+*.rdb
+allure-results

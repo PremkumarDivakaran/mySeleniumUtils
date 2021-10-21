@@ -1,10 +1,7 @@
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import restApi.HttpClient;
 
 public class BaseTest {
-
-    HttpClient httpClient = new HttpClient();
 
     protected JsonNode getJsonObj(String responseString) {
         JsonNode jsonNode = null;
